@@ -1,0 +1,16 @@
+[
+{
+  "modid": "firstmod",
+  "name": "First Mod",
+  "description": "TBD Description",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Wade Wegner"],
+  "credits": "TBD Credits",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
