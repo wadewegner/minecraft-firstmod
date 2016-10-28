@@ -7,9 +7,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class RubyBlock extends Block
 {
-    public RubyBlock(Material materialIn)
+    public RubyBlock()
     {
-        super(Material.iron);
+        super(Material.IRON);
+
         setRegistryName("ruby_block");
         GameRegistry.register(this);
         GameRegistry.register(new ItemBlock(this), getRegistryName());

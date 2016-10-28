@@ -16,7 +16,7 @@ public class FirstModItems
 
     public static void init()
     {
-        first_item = registerItem(new Item(), "first_item").setUnlocalizedName("first_item").setCreativeTab(CreativeTabs.tabTools);
+        first_item = registerItem(new Item(), "first_item").setUnlocalizedName("first_item");//.setCreativeTab(CreativeTabs.tabTools);
     }
 
     public static void registerRenders()

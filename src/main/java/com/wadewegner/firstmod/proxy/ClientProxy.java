@@ -1,6 +1,7 @@
 package com.wadewegner.firstmod.proxy;
 
 import com.wadewegner.firstmod.init.FirstModItems;
+import com.wadewegner.firstmod.init.FirstModBlocks;
 
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -13,16 +14,15 @@ public class ClientProxy extends CommonProxy
         super.preInit(evt);
 
         FirstModItems.init();
-        // inits
+        FirstModBlocks.init();
     }
 
     @Override
     public void init(FMLInitializationEvent evt) {
         super.init(evt);
 
-        // RegisterRenders
-
         FirstModItems.registerRenders();  
+        FirstModBlocks.registerRenders();
     }
 
     @Override
