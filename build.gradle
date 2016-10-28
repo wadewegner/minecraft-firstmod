@@ -12,8 +12,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = "1.0"
-group= "com.wadewegner.firstmod.main.FirstMod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "firstmod"
+group= "com.wadewegner.wegnercraft.main.Wegnercraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "wegnercraft"
 
 sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
 compileJava {

@@ -1,28 +1,27 @@
-package com.wadewegner.firstmod.init;
+package com.wadewegner.wegnercraft.init;
 
-import com.wadewegner.firstmod.main.Reference;
+import com.wadewegner.wegnercraft.main.Reference;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation; 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemFood;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
+
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-
-public class FirstModFood
+public class WegnercraftItems
 {
-    public static Item butter;
+    public static Item first_item;
 
     public static void init()
     {
-        butter = registerItem(new ItemFood(1, 0.9F, false), "butter").setUnlocalizedName("butter").setCreativeTab(FirstModTabs.tabFirstModeFood);
+        first_item = registerItem(new Item(), "first_item").setUnlocalizedName("first_item").setCreativeTab(WegnercraftTabs.tabWegnercraftItems);
     }
 
     public static void registerRenders()
     {
-        registerRender(butter);
+        registerRender(first_item);
     }
 
     public static void registerRender(Item item)

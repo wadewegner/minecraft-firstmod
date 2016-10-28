@@ -1,4 +1,4 @@
-package com.wadewegner.firstmod.init.blocks;
+package com.wadewegner.wegnercraft.init.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

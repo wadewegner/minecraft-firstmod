@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "firstmod:items/butter"
+        "layer0": "wegnercraft:items/first_item"
     }
 }

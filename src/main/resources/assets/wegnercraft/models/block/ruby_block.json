@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "firstmod:blocks/ruby_block"
+        "all": "wegnercraft:blocks/ruby_block"
     }
 }

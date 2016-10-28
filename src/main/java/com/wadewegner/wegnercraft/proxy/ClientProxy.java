@@ -1,8 +1,8 @@
-package com.wadewegner.firstmod.proxy;
+package com.wadewegner.wegnercraft.proxy;
 
-import com.wadewegner.firstmod.init.FirstModItems;
-import com.wadewegner.firstmod.init.FirstModBlocks;
-import com.wadewegner.firstmod.init.FirstModFood;
+import com.wadewegner.wegnercraft.init.WegnercraftItems;
+import com.wadewegner.wegnercraft.init.WegnercraftBlocks;
+import com.wadewegner.wegnercraft.init.WegnercraftFood;
 
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -14,18 +14,18 @@ public class ClientProxy extends CommonProxy
     public void preInit(FMLPreInitializationEvent evt) {
         super.preInit(evt);
 
-        FirstModItems.init();
-        FirstModBlocks.init();
-        FirstModFood.init();
+        WegnercraftItems.init();
+        WegnercraftBlocks.init();
+        WegnercraftFood.init();
     }
 
     @Override
     public void init(FMLInitializationEvent evt) {
         super.init(evt);
 
-        FirstModItems.registerRenders();  
-        FirstModBlocks.registerRenders();
-        FirstModFood.registerRenders();
+        WegnercraftItems.registerRenders();  
+        WegnercraftBlocks.registerRenders();
+        WegnercraftFood.registerRenders();
     }
 
     @Override

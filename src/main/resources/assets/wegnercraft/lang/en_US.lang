@@ -8,6 +8,6 @@ tile.ruby_block.name=Ethan Block
 item.butter.name=Butter
 
 // Tabs
-itemGroup.tabFirstModItems=My Items
-itemGroup.tabFirstModBlocks=My Blocks
-itemGroup.tabFirstModeFood=My Food
+itemGroup.tabWegnercraftItems=My Items
+itemGroup.tabWegnercraftBlocks=My Blocks
+itemGroup.tabWegnercrafteFood=My Food

@@ -1,8 +1,9 @@
-package com.wadewegner.firstmod.proxy;
+package com.wadewegner.wegnercraft.proxy;
 
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+
 import net.minecraft.item.Item;
 
 public class CommonProxy

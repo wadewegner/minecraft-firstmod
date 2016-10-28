@@ -1,14 +1,14 @@
 [
 {
-  "modid": "firstmod",
-  "name": "First Mod",
-  "description": "TBD Description",
+  "modid": "wegnercraft",
+  "name": "Wegnercraft",
+  "description": "Additions to Minecraft exclusively for Wegners",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["Wade Wegner"],
-  "credits": "TBD Credits",
+  "credits": "TBD",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -1,8 +1,8 @@
-package com.wadewegner.firstmod.main;
+package com.wadewegner.wegnercraft.main;
 
 import org.apache.logging.log4j.Logger;
 
-import com.wadewegner.firstmod.proxy.CommonProxy;
+import com.wadewegner.wegnercraft.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -14,13 +14,13 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
-public class FirstMod
+public class Wegnercraft
 {
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
     public static CommonProxy proxy;
     
     @Instance
-    public static FirstMod instance;
+    public static Wegnercraft instance;
 
     public static Logger logger;
 
