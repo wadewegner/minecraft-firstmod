@@ -17,7 +17,7 @@ public class FirstModBlocks
         ruby_block = new RubyBlock();
 
         ruby_block.setUnlocalizedName("ruby_block");
-        ruby_block.setCreativeTab(CreativeTabs.TOOLS);
+        ruby_block.setCreativeTab(FirstModTabs.tabFirstModBlocks);
     }
 
     public static void registerRenders()

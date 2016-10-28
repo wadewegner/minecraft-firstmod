@@ -1,2 +1,13 @@
-//Items\\
-item.first_item.name="Ethan"
+// Items
+item.first_item.name=Ethan
+
+// Blocks
+tile.ruby_block.name=Ethan Block
+
+// Foods
+item.butter.name=Butter
+
+// Tabs
+itemGroup.tabFirstModItems=My Items
+itemGroup.tabFirstModBlocks=My Blocks
+itemGroup.tabFirstModeFood=My Food
