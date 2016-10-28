@@ -12,16 +12,23 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class WegnercraftItems
 {
-    public static Item first_item;
+    public static Item ethan_head;
+    public static Item katelyn_head;
+    public static Item hayley_head;
+
+    public static Item ruby;
+    public static Item sapphire;
+    public static Item emerald;
+    public static Item copper;
 
     public static void init()
     {
-        first_item = registerItem(new Item(), "first_item").setUnlocalizedName("first_item").setCreativeTab(WegnercraftTabs.tabWegnercraftItems);
+        ethan_head = registerItem(new Item(), "ethan_head").setUnlocalizedName("ethan_head").setCreativeTab(WegnercraftTabs.tabWegnercraftItems);
     }
 
     public static void registerRenders()
     {
-        registerRender(first_item);
+        registerRender(ethan_head);
     }
 
     public static void registerRender(Item item)

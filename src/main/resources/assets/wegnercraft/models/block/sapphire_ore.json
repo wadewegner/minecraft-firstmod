@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "wegnercraft:blocks/ruby_block"
+        "all": "wegnercraft:blocks/sapphire_ore"
     }
 }

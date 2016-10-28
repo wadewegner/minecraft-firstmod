@@ -3,6 +3,8 @@ package com.wadewegner.wegnercraft.proxy;
 import com.wadewegner.wegnercraft.init.WegnercraftItems;
 import com.wadewegner.wegnercraft.init.WegnercraftBlocks;
 import com.wadewegner.wegnercraft.init.WegnercraftFood;
+import com.wadewegner.wegnercraft.init.WegnercraftTools;
+import com.wadewegner.wegnercraft.init.WegnercraftWeapons;
 
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -17,6 +19,8 @@ public class ClientProxy extends CommonProxy
         WegnercraftItems.init();
         WegnercraftBlocks.init();
         WegnercraftFood.init();
+        WegnercraftTools.init();
+        WegnercraftWeapons.init();
     }
 
     @Override
@@ -26,6 +30,8 @@ public class ClientProxy extends CommonProxy
         WegnercraftItems.registerRenders();  
         WegnercraftBlocks.registerRenders();
         WegnercraftFood.registerRenders();
+        WegnercraftTools.registerRenders();
+        WegnercraftWeapons.registerRenders();
     }
 
     @Override

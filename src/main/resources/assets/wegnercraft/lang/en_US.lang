@@ -1,13 +1,34 @@
 // Items
-item.first_item.name=Ethan
+item.ethan_head.name=Ethan
+
+item.copper_axe.name=Copper Axe
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_shovel.name=Copper Shovel
+item.copper_sword.name=Copper Sword
+
+item.emerald_axe.name=Emerald Axe
+item.emerald_pickaxe.name=Emerald Pickaxe
+item.emerald_shovel.name=Emerald Shovel
+item.emerald_sword.name=Emerald Sword
+
+item.ruby_axe.name=Ruby Axe
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_sword.name=Ruby Sword
+
+item.sapphire_axe.name=Sapphire Axe
+item.sapphire_pickaxe.name=Sapphire Pickaxe
+item.sapphire_shovel.name=Sapphire Shovel
+item.sapphire_sword.name=Sapphire Sword
 
 // Blocks
-tile.ruby_block.name=Ethan Block
+tile.ruby_ore.name=Ruby Ore
+tile.sapphire_ore.name=Sapphire Ore
 
 // Foods
 item.butter.name=Butter
 
 // Tabs
-itemGroup.tabWegnercraftItems=My Items
-itemGroup.tabWegnercraftBlocks=My Blocks
-itemGroup.tabWegnercrafteFood=My Food
+itemGroup.tabWegnercraftItems=Wegnercraft Items
+itemGroup.tabWegnercraftBlocks=Wegnercraft Blocks
+itemGroup.tabWegnercraftFood=Wegnercraft Food

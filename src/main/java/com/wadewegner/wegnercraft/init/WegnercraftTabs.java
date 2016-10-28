@@ -10,7 +10,7 @@ public class WegnercraftTabs
         @Override
         public Item getTabIconItem()
         {
-            return WegnercraftItems.first_item;
+            return WegnercraftItems.ethan_head;
         }
     };
 
@@ -19,7 +19,7 @@ public class WegnercraftTabs
         @Override
         public Item getTabIconItem()
         {
-            return Item.getItemFromBlock(WegnercraftBlocks.ruby_block);
+            return Item.getItemFromBlock(WegnercraftBlocks.ruby_ore);
         }
     };
 

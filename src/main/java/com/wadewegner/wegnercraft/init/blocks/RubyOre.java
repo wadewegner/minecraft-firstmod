@@ -5,13 +5,13 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class RubyBlock extends Block
+public class RubyOre extends Block
 {
-    public RubyBlock()
+    public RubyOre()
     {
         super(Material.IRON);
 
-        setRegistryName("ruby_block");
+        setRegistryName("ruby_ore");
         setResistance(3F);
         setHardness(3F);
 
