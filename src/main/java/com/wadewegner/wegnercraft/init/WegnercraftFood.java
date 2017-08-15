@@ -15,16 +15,21 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class WegnercraftFood
 {
     public static Item butter;
+    public static Item pizza;
 
     public static void init()
     {
         butter = registerItem(new ItemFood(1, 0.9F, false), "butter").setUnlocalizedName("butter")
+            .setCreativeTab(WegnercraftTabs.tabWegnercraftFood);
+
+        pizza = registerItem(new ItemFood(1, 0.9F, false), "pizza").setUnlocalizedName("pizza")
             .setCreativeTab(WegnercraftTabs.tabWegnercraftFood);
     }
 
     public static void registerRenders()
     {
         registerRender(butter);
+        registerRender(pizza);
     }
 
     public static void registerRender(Item item)

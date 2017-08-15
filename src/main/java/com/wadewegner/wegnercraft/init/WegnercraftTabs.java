@@ -1,5 +1,7 @@
 package com.wadewegner.wegnercraft.init;
 
+import com.wadewegner.wegnercraft.init.WegnercraftBlocks;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

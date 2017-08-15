@@ -27,6 +27,7 @@ tile.sapphire_ore.name=Sapphire Ore
 
 // Foods
 item.butter.name=Butter
+item.pizza.name=Pizza
 
 // Tabs
 itemGroup.tabWegnercraftItems=Wegnercraft Items
